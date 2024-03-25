@@ -3,7 +3,7 @@ import CountriesList from "../components/CountriesList";
 
 const CountriesContainer = () =>{
     const [countries, setCountries] = useState([]);
-    const [visitedCountries, setVisitedCountries] = useState([]);
+    
 
 const loadCountries = async () => {
     const response = await fetch("https://restcountries.com/v3.1/all");
