@@ -4,13 +4,14 @@ const Country = ({country, onButtonClick}) => {
  }
 
 return (
-<>
+<div className="country-design">
+
 <h2>{country.name.common}</h2>
 <h2>{country.name.official}</h2>
 <p>Capital: {country.capital}</p>
-<p>Flag: {country.flag}</p>
+<img className="flags" src={country.flags.svg} alt={`${country.name.common} flag`} />
 <button onClick={handleButtonClick}> Visited </button>
-</>
+</div>
 
 
 )

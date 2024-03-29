@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.country-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.flags {
+  width:150px; 
+  text-align: center;
+  height: 100px; 
+}
+
+.countries-list {
+  padding: 20px;
+}
+
+.countries-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-countries,
+.visited-countries {
+  flex-basis: 48%; 
+}
+
+.all-countries {
+  border-right: 2px solid #ccc;
+  padding-right: 10px;
+}
+
+.visited-countries {
+  padding-right: 10px;
+}
+
+.world-countries {
+  text-align: center;
+}

@@ -25,23 +25,23 @@ const CountriesList = ({countries}) => {
 
     return (
         <>
-        <h2> World Countries 😎</h2>
-
-        <div>
-            <h3>Visited Countries:</h3>
+        <h1 className='world-countries'> World Countries 😎</h1>
+        <div className="countries-container">
+        <div className='visited-countries'>
+            <h2>Visited Countries:</h2>
             <ul>
                 {mappedVisitedCountries}
             </ul>
         </div>
-        <div>
-            <h3>All countries:</h3>
+        <div className='all-countries'>
+            <h2>All countries:</h2>
             <ul>
                 {mappedCountries}
             </ul>
            
         </div>
 
-     
+        </div>
             
         </>
 

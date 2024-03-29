@@ -24,9 +24,9 @@ useEffect(
 );
 
 return (
-    <>
+    <div style={{backgroundColor: '#F8FFE5'}}>
     <CountriesList countries={countries} />
-    </>
+    </div>
 );
 
 
